@@ -31,8 +31,8 @@ def cosine_sim(file, utag):
 
         i = 0
         l = []
-        for movie in sorted_similar_cases:
-            l.append(get_title_from_index(movie[0]))
+        for case in sorted_similar_cases:
+            l.append(get_title_from_index(case[0]))
             i = i + 1
             if i > 15:
                 break
